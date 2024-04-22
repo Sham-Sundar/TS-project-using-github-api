@@ -18,9 +18,10 @@ const showResultUi = (singleUser) => {
     mainContainer.insertAdjacentHTML("beforeend", `<div class="card">
     <img src=${avatar_url} alt= ${login} />
     <hr/>
+    <h1>${login}</h1>
     <div class = "card-footer">
     <img src=${avatar_url} alt= ${login} />
-    <a href="${url}">Github<a/>
+    <a href="${url}">Github</a>
     <div/>
     </div>`);
 };
